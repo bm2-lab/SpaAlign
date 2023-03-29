@@ -5,7 +5,7 @@ function (cell_type_distribution, distance = c("jensen-shannon", "manhattan"))
     ### high accuracy, but lower speed
     if (method_choose == "jensen-shannon") {
         require(philentropy)
-        propor_dis <- distance(cell_type_distribution, method = method_choose)
+        propor_dis <- philentropy::distance(cell_type_distribution, method = method_choose)
         row.names(propor_dis) <- row.names(cell_type_distribution)
         colnames(propor_dis) <- row.names(cell_type_distribution)
         return(propor_dis)
