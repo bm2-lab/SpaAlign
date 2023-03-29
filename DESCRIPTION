@@ -1,0 +1,11 @@
+Package: SpatialAlign
+Type: Package
+Title: Alignment of Spatial transcriptomics 
+Version: 1.0
+Date: 2023-03-27
+Author: Duan Bin
+Maintainer: Duan Bin <bioinfo_db@163.com>
+Description: SpatialAlin is a computational method to alin both single-cell resolution and spot-resolution spatial transcriptome from three aspects, namely consistent spatial domain detection, reference-based spatial domain annotation, and slice category with spatial domain composition.
+License: GPL-2
+Depends: Seurat_4.0.4, R (>= 4.0.5)
+Keyword: Domain detection, Alignment,Spatial transcriptomics

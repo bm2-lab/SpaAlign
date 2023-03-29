@@ -1,0 +1,6 @@
+export("Correlation", "DistributionDistance", "DomainCharacterization",
+       "DomainDistribution", "DomainHclust", "DomainPlot",
+       "DomainPlot_multiple", "DrawCluster", "InitialClustering",
+       "SpatialCellTypeDistribution",
+       "SpatialCellTypeDistribution_multiple", "SpatialNormalize",
+       "SpatialPlot")
