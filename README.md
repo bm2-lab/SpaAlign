@@ -1,5 +1,6 @@
 # SpatialAlign
 
+## **Workflow of SpatialAlign** 
 ![](SpatialAlign_Overview.png)<!-- -->
 
 
