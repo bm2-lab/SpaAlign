@@ -1,6 +1,6 @@
 # SpatialAlign
 
-![](https://github.com/bm2-lab/SpatialAlign/Figure 1.png)
+![](https://github.com/bm2-lab/SpatialAlign/SpatialAlign_Overview.png)
 
 
 ## Overview
