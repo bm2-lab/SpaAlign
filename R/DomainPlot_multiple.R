@@ -20,7 +20,7 @@ function (domain_hclust, distribution_distance,
     colour_use_unique_ok <- colour_use_unique[unique(cluster_hc_all_order[, 
         k])]
     source("http://addictedtor.free.fr/packages/A2R/lastVersion/R/code.R")
-    b <- A2Rplot(result_hc, k = k, boxes = FALSE, col.up = "gray50", 
+    b <- A2Rplot(result_hc, k = k+1, boxes = FALSE, col.up = "gray50", 
         col.down = colour_use_unique_ok, show.labels = F, legend = T, 
         only.tree = T, type = c("triangle"))
 }
