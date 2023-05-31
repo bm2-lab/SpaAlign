@@ -1,7 +1,7 @@
 # SpaAlign
 
 ## **Workflow of SpaAlign** 
-![](Fig 1.png)<!-- -->
+![](Fig_1.png)<!-- -->
 
 
 ## Overview
