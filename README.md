@@ -1,19 +1,19 @@
 # SpaAlign
 
 ## **Workflow of SpaAlign** 
-![](SpatialAlign_Overview.png)<!-- -->
+![](Fig 1.png)<!-- -->
 
 
 ## Overview
-SpatialAlign is designed for multi-slice analysis of both single-cell resolution and spot-resolution spatial transcriptomics.
+SpatialAlign is designed for multi-slice spatial domain analysis of both single-cell and spot-resolution spatial transcriptomics.
 
-From the view of biological function, SpatialAlign uses a simple but effective strategy, spatially adjacent cell type distribution, to integrate gene expression and spatial information, that enables multi-slice analysis for both single-cell resolution and spot-resolution spatial transcriptomics from three aspects, namely consistent spatial domain detection, reference-based spatial domain annotation, and slice category with spatial domain composition.
+From the view of biological function, SpaAlign uses a simple but effective strategy, spatially adjacent cell type distribution, to integrate gene expression and spatial information, that enables multi-slice spatial domain analysis from three aspects, namely consistent spatial domain detection, reference-based spatial domain annotation, and slice-level clustering and trajectory analysis with spatial domain composition.
 
 ## Getting started
 See [Documentation and Tutorials](https://spatialalign.readthedocs.io/en/latest/index.html).
 
 ## Software dependencies
-Seurat
+Seurat v3
 
 ## Installation
 
